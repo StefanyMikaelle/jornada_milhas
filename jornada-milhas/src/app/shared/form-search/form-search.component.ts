@@ -9,14 +9,14 @@ import { ModalComponent } from '../modal/modal.component';
 })
 export class FormSearchComponent implements OnInit {
 
-  constructor(public dialog: MatDialog) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
-  openDialog() {
-    this.dialog.open(ModalComponent, {
-      width: '50%'
-    })
-  }
+  // openDialog() {
+  //   this.dialog.open(ModalComponent, {
+  //     width: '50%'
+  //   })
+  // }
 }
